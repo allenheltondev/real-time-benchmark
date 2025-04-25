@@ -1,0 +1,16 @@
+{
+  "name": "real-time-benchmark",
+  "version": "1.0.0",
+  "description": "Benchmarks AppSync Events and Momento Topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "allenheltondev",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-lambda-powertools/metrics": "^2.10.0",
+    "@gomomento/sdk": "^1.99.1",
+    "ws": "^8.18.0"
+  }
+}
